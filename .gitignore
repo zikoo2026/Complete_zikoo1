@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# Allow folders so git can see inside them
+!*/
+
+# Allow entire lib folder
+!lib/
+!lib/**
+
+# Allow entire assets folder
+!assets/
+!assets/**
+
+# Allow YAML files (pubspec.yaml)
+!*.yaml
+
+# Allow gitignore itself
+!.gitignore
